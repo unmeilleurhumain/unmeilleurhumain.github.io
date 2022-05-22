@@ -1,0 +1,19 @@
+{
+  "name": "Un Meilleur Humain",
+  "version": "0.0.1",
+  "description": "A simple website which host IT courses",
+  "main": "index.js",
+  "authors": {
+    "name": "Un Meilleur Humain",
+    "email": "un_meilleur_humain@protonmail.com"
+  },
+  "repository": "unmeilleurhumain.github.io/Un Meilleur Humain",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
