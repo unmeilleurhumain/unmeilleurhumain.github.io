@@ -263,7 +263,7 @@ PLATFORMS
 
 DEPENDENCIES
   beautiful-jekyll-theme (~> 5.0)
-  github-pages (~> 226)
+  github-pages
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
   tzinfo (~> 1.2)
