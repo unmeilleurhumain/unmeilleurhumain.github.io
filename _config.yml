@@ -29,7 +29,7 @@ url: "https://unmeilleurhumain.github.io" # the base hostname & protocol for you
 domain: unmeilleurhumain.github.io
 twitter_username: jekyllrb
 github_username: jekyll
-remote_theme: daattali/beautiful-jekyll
+remote_theme: "jeffreytse/jekyll-theme-yat"
 # Build settings
 plugins:
   - jekyll-feed
