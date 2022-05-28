@@ -12,6 +12,6 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TARGET_REPO: unmeilleurhumain/unmeilleurhumain.github.io
-          TARGET_BRANCH: main
+          TARGET_BRANCH: gh_pages
           BUILD_SCRIPT: yarn && yarn build
           BUILD_DIR: docs/.vuepress/dist
