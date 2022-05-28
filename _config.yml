@@ -31,7 +31,6 @@ twitter_username: jekyllrb
 github_username: jekyll
 remote_theme: daattali/beautiful-jekyll
 # Build settings
-theme: beautiful-jekyll-theme
 plugins:
   - jekyll-feed
 # Exclude from processing.
