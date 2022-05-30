@@ -1,48 +1,44 @@
 ---
 home: true
-layout: Blog
 icon: home
-title: Blog Home
+title: Homepage
 heroImage: /logo.svg
-heroText: the name of your blog
-tagline: You can put your slogan here
-heroFullScreen: true
-projects:
-  - icon: project
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
+heroText: Un Meilleur Humain
+tagline: Become a better version of yourself
 
-  - icon: link
-    name: link name
-    desc: link detailed description
-    link: https://link.address
+features:
+  - title: Development
+    icon: code
+    details: Learn how to code and create powerfull applications
+    link: https://vuepress-theme-hope.github.io/v2/guide/markdown/
+  - title: Linux
+    icon: linux
+    details: Learn anything you need to know to manage Linux servers
+    link: https://vuepress-theme-hope.github.io/v2/guide/markdown/
+  - title: Un-Meilleur-Humain
+    icon: like
+    details: Discover the "Un-Meilleur-Humain" project and how does it work
+    link: https://vuepress-theme-hope.github.io/v2/guide/markdown/
+  - title: Monitoring
+    icon: operate
+    details: Discover monitoring solutions 
+    link: https://vuepress-theme-hope.github.io/v2/guide/markdown/
+  - title: Git
+    icon: git
+    details: Learn everything you need to know about git !
+    link: https://vuepress-theme-hope.github.io/v2/guide/markdown/
+  - title: Docker
+    icon: workingDirectory
+    details: Launch your application using docker and docker-compose
+    link: https://vuepress-theme-hope.github.io/v2/guide/markdown/
+  - title: Kubernetes
+    icon: module
+    details: Deploy your application in a Kubernetes cluster
+    link: https://vuepress-theme-hope.github.io/v2/guide/markdown/
+  - title: Others
+    icon: study
+    details: A lot of different topics
+    link: https://vuepress-theme-hope.github.io/v2/guide/markdown/
+    
 
-  - icon: book
-    name: book name
-    desc: Detailed description of the book
-    link: https://link.to.your.book
-
-  - icon: article
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
-
-  - icon: friend
-    name: friend name
-    desc: Detailed description of friend
-    link: https://link.to.your.friend
-
-  - icon: /logo.svg
-    name: custom item
-    desc: Detailed description of this custom item
-    link: https://link.to.your.friend
-
-footer: customize your footer text
----
-
-This is a blog home page.
-
-To use this layout, you should set both `layout: Blog` and `home: true` in the page front matter.
-
-For related configuration docs, please see [blog homepage](https://vuepress-theme-hope.github.io/v2/guide/blog/home/).
+copyright: true
