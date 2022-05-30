@@ -1,18 +1,19 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme";
 
-import { searchPlugin } from "@vuepress/plugin-search";
+const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
 
 export default defineUserConfig({
   lang: "en-US",
-  title: "Theme Demo",
-  description: "A demo for vuepress-theme-hope",
+  title: "Un Meilleur Humain",
+  description: "Free IT Courses",
 
   base: "/",
 
   theme,
+
   plugins: [
-    searchPlugin({
+    docsearchPlugin({
       // your options
     }),
   ],

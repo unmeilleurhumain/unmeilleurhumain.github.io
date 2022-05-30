@@ -3,7 +3,7 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
+  hostname: "https://unmeilleurhumain.github.io/",
 
   author: {
     name: "Mr.Hope",
@@ -18,6 +18,7 @@ export default hopeTheme({
 
   docsDir: "demo/src",
 
+  darkmode: "toggle",
   // navbar
   navbar: navbar,
 
