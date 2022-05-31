@@ -24,6 +24,13 @@ export default hopeTheme({
   // sidebar
   sidebar: sidebar,
 
+  themeColor : {
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
+    pink: "#ffc0cb"
+  },
+
   footer: "Default footer",
 
   displayFooter: true,
