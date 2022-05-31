@@ -13,8 +13,6 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
-
   docsDir: "demo/src",
 
   darkmode: "toggle",
@@ -28,20 +26,17 @@ export default hopeTheme({
     red: "#f26d6d",
     green: "#3eaf7c",
     orange: "#fb9b5f",
-    pink: "#ffc0cb"
+    pink: "#C39BD3"
   },
 
-  footer: "Default footer",
+  fullscreen: true,
+
+  footer: "Made with ❤️ by Un Meilleur humain",
+  repo: "unmeilleurhumain/unmeilleurhumain.github.io",
 
   displayFooter: true,
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
-
-  encrypt: {
-    config: {
-      "/guide/encrypt.html": ["1234"],
-    },
-  },
 
   plugins: {
     blog: {
