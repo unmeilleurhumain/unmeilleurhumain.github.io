@@ -1,20 +1,6 @@
 ---
-icon: edit
-date: 2022-01-09
-category:
-  - CategoryA
-  - CategoryB
-tag:
-  - tag A
-  - tag B
+layout: Library
+heroImage: https://vuepress.vuejs.org/hero.png
 ---
 
-# Article 9
-
-## Heading 2
-
-Here is the content.
-
-### Heading 3
-
-Here is the content.
+<h1>This is a test</h1>
